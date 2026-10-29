@@ -1,0 +1,41 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Node / Frontend Build Artifacts
+node_modules/
+dist/
+build/
+
+# IDE & Editor Configs
+.vscode/
+.idea/
+
+# Logs and Uploads
+logs/
+logs
+uploads/
+uploads
+
+# OS Artifacts
+.DS_Store
+Thumbs.db
